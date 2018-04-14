@@ -32,6 +32,8 @@
             </actions>
             <columns>
                 <column id="name"/>
+                <column id="DTYPE"
+                        generator="generateDTYPECell"/>
                 <column id="phone"/>
                 <column id="email"/>
             </columns>

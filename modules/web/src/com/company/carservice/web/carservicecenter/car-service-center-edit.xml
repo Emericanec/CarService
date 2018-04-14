@@ -105,6 +105,9 @@
                         <column id="name"/>
                         <column id="phone"/>
                         <column id="email"/>
+                        <column id="dtype"
+                                caption="Type"
+                                generator="generateDtypeCell"/>
                     </columns>
                     <rows datasource="customersDs"/>
                 </table>

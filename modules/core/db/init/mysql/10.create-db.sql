@@ -31,6 +31,7 @@ create table CARSERVICE_CUSTOMER (
     NAME varchar(255) not null,
     PHONE varchar(255) not null,
     EMAIL varchar(255) not null,
+    DTYPE varchar(255),
     --
     primary key (ID)
 )^

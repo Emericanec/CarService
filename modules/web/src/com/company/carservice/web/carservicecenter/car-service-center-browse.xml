@@ -8,7 +8,7 @@
     <dsContext>
         <groupDatasource id="carServiceCentersDs"
                          class="com.company.carservice.entity.CarServiceCenter"
-                         view="_local">
+                         view="carServiceCenter-view">
             <query>
                 <![CDATA[select e from carservice$CarServiceCenter e]]>
             </query>

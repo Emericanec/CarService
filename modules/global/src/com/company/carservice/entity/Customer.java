@@ -6,6 +6,7 @@ import javax.persistence.Column;
 import javax.validation.constraints.NotNull;
 import com.haulmont.cuba.core.entity.StandardEntity;
 import com.haulmont.chile.core.annotations.NamePattern;
+
 import javax.persistence.InheritanceType;
 import javax.persistence.DiscriminatorType;
 import javax.persistence.Inheritance;
@@ -31,6 +32,9 @@ public class Customer extends StandardEntity {
     @Column(name = "EMAIL", nullable = false)
     protected String email;
 
+    @Column(name="DTYPE", insertable = false, updatable = false)
+    protected String dtype;
+
     public void setName(String name) {
         this.name = name;
     }
@@ -55,5 +59,8 @@ public class Customer extends StandardEntity {
         return email;
     }
 
+    public String getDtype() {
+        return dtype;
+    }
 
 }
