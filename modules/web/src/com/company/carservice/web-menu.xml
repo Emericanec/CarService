@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application-carservice"
+          insertBefore="administration">
+        <item screen="carservice$City.browse"/>
+        <item screen="carservice$Individual.browse"/>
+        <item screen="carservice$Company.browse"/>
+        <item screen="carservice$CarServiceCenter.browse"/>
+    </menu>
+</menu-config>
