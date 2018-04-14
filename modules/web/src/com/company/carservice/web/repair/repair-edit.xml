@@ -8,7 +8,10 @@
     <dsContext>
         <datasource id="repairDs"
                     class="com.company.carservice.entity.Repair"
-                    view="repair-view"/>
+                    view="repair-view">
+            <datasource id="employeeDs"
+                        property="employee"/>
+        </datasource>
     </dsContext>
     <dialogMode height="600"
                 width="800"/>

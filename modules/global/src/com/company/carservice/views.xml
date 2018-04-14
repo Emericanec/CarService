@@ -27,6 +27,9 @@
         <property name="center"
                   view="_minimal"/>
         <property name="employee"
-                  view="_minimal"/>
+                  view="_minimal">
+            <property name="center"
+                      view="_minimal"/>
+        </property>
     </view>
 </views>

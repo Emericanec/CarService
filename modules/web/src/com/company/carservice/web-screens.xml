@@ -23,4 +23,6 @@
             template="com/company/carservice/web/repair/repair-edit.xml"/>
     <screen id="carservice$Customer.browse"
             template="com/company/carservice/web/customer/customer-browse.xml"/>
+    <screen id="carservice$Employee.browse"
+            template="com/company/carservice/web/employee/employee-browse.xml"/>
 </screen-config>
